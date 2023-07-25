@@ -1,6 +1,6 @@
 import os
 import launch
 
-os.system("bash webui.sh --skip-torch-cuda-test")
+os.system("bash webui.sh --use-cpu all")
 launch.prepare_environment()
 launch.start()
